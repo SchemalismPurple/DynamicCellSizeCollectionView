@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A846F260AE4A33EFF16412E /* Pods_DynamicCellSizeCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A799171699932306022D5F /* Pods_DynamicCellSizeCollectionView.framework */; };
 		AA1590692AA5EF3300B0DF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1590682AA5EF3300B0DF4B /* AppDelegate.swift */; };
 		AA15906B2AA5EF3300B0DF4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15906A2AA5EF3300B0DF4B /* SceneDelegate.swift */; };
 		AA15906D2AA5EF3300B0DF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15906C2AA5EF3300B0DF4B /* ViewController.swift */; };
 		AA1590702AA5EF3300B0DF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA15906E2AA5EF3300B0DF4B /* Main.storyboard */; };
 		AA1590722AA5EF3400B0DF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1590712AA5EF3400B0DF4B /* Assets.xcassets */; };
 		AA1590752AA5EF3400B0DF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1590732AA5EF3400B0DF4B /* LaunchScreen.storyboard */; };
+		AA15907D2AA5EFAB00B0DF4B /* DynamicCellSizeFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15907C2AA5EFAB00B0DF4B /* DynamicCellSizeFlowLayout.swift */; };
+		AA15907F2AA5EFC000B0DF4B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15907E2AA5EFC000B0DF4B /* FeedCell.swift */; };
+		AA1590812AA5FE0100B0DF4B /* FeedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1590802AA5FE0100B0DF4B /* FeedHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B8B3B1A3FC11144DB5DEB2D /* Pods-DynamicCellSizeCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicCellSizeCollectionView.debug.xcconfig"; path = "Target Support Files/Pods-DynamicCellSizeCollectionView/Pods-DynamicCellSizeCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		A4A799171699932306022D5F /* Pods_DynamicCellSizeCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicCellSizeCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1590652AA5EF3300B0DF4B /* DynamicCellSizeCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellSizeCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1590682AA5EF3300B0DF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA15906A2AA5EF3300B0DF4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		AA1590712AA5EF3400B0DF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1590742AA5EF3400B0DF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1590762AA5EF3400B0DF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA15907C2AA5EFAB00B0DF4B /* DynamicCellSizeFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCellSizeFlowLayout.swift; sourceTree = "<group>"; };
+		AA15907E2AA5EFC000B0DF4B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		AA1590802AA5FE0100B0DF4B /* FeedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeader.swift; sourceTree = "<group>"; };
+		D96826B0F2E9FF32B8299130 /* Pods-DynamicCellSizeCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicCellSizeCollectionView.release.xcconfig"; path = "Target Support Files/Pods-DynamicCellSizeCollectionView/Pods-DynamicCellSizeCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A846F260AE4A33EFF16412E /* Pods_DynamicCellSizeCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39DC764CC725B494CF554550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A799171699932306022D5F /* Pods_DynamicCellSizeCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA15905C2AA5EF3300B0DF4B = {
 			isa = PBXGroup;
 			children = (
 				AA1590672AA5EF3300B0DF4B /* DynamicCellSizeCollectionView */,
 				AA1590662AA5EF3300B0DF4B /* Products */,
+				D4DB73807CC141B5FC2956DD /* Pods */,
+				39DC764CC725B494CF554550 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +80,24 @@
 				AA1590682AA5EF3300B0DF4B /* AppDelegate.swift */,
 				AA15906A2AA5EF3300B0DF4B /* SceneDelegate.swift */,
 				AA15906C2AA5EF3300B0DF4B /* ViewController.swift */,
+				AA15907E2AA5EFC000B0DF4B /* FeedCell.swift */,
+				AA1590802AA5FE0100B0DF4B /* FeedHeader.swift */,
+				AA15907C2AA5EFAB00B0DF4B /* DynamicCellSizeFlowLayout.swift */,
 				AA15906E2AA5EF3300B0DF4B /* Main.storyboard */,
 				AA1590712AA5EF3400B0DF4B /* Assets.xcassets */,
 				AA1590732AA5EF3400B0DF4B /* LaunchScreen.storyboard */,
 				AA1590762AA5EF3400B0DF4B /* Info.plist */,
 			);
 			path = DynamicCellSizeCollectionView;
+			sourceTree = "<group>";
+		};
+		D4DB73807CC141B5FC2956DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B8B3B1A3FC11144DB5DEB2D /* Pods-DynamicCellSizeCollectionView.debug.xcconfig */,
+				D96826B0F2E9FF32B8299130 /* Pods-DynamicCellSizeCollectionView.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA1590792AA5EF3400B0DF4B /* Build configuration list for PBXNativeTarget "DynamicCellSizeCollectionView" */;
 			buildPhases = (
+				EEF7B5D56169DCFF23B80270 /* [CP] Check Pods Manifest.lock */,
 				AA1590612AA5EF3300B0DF4B /* Sources */,
 				AA1590622AA5EF3300B0DF4B /* Frameworks */,
 				AA1590632AA5EF3300B0DF4B /* Resources */,
+				21F5F07399D3E8A3BD7458F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21F5F07399D3E8A3BD7458F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicCellSizeCollectionView/Pods-DynamicCellSizeCollectionView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicCellSizeCollectionView/Pods-DynamicCellSizeCollectionView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicCellSizeCollectionView/Pods-DynamicCellSizeCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF7B5D56169DCFF23B80270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicCellSizeCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA1590612AA5EF3300B0DF4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA15907D2AA5EFAB00B0DF4B /* DynamicCellSizeFlowLayout.swift in Sources */,
+				AA15907F2AA5EFC000B0DF4B /* FeedCell.swift in Sources */,
 				AA15906D2AA5EF3300B0DF4B /* ViewController.swift in Sources */,
 				AA1590692AA5EF3300B0DF4B /* AppDelegate.swift in Sources */,
+				AA1590812AA5FE0100B0DF4B /* FeedHeader.swift in Sources */,
 				AA15906B2AA5EF3300B0DF4B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		AA15907A2AA5EF3400B0DF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8B3B1A3FC11144DB5DEB2D /* Pods-DynamicCellSizeCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +392,7 @@
 		};
 		AA15907B2AA5EF3400B0DF4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96826B0F2E9FF32B8299130 /* Pods-DynamicCellSizeCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +406,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
