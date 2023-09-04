@@ -9,6 +9,4 @@ target 'DynamicCellSizeCollectionView' do
 
 pod 'Then'
 pod 'SnapKit'
-pod 'RxSwift'
-pod 'RxCocoa'
 end

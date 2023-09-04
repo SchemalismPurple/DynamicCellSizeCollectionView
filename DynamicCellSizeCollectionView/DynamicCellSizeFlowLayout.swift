@@ -124,3 +124,4 @@ class DynamicCellSizeFlowLayout: UICollectionViewFlowLayout {
         }
     }
 }
+

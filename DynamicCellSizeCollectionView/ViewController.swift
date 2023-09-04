@@ -29,7 +29,6 @@ class ViewController: UIViewController {
     lazy var collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout).then{
         $0.showsVerticalScrollIndicator = false
         $0.alwaysBounceVertical = false
-        $0.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         $0.clipsToBounds = true
         $0.backgroundColor = .white
     }
@@ -88,4 +87,3 @@ extension ViewController: UICollectionViewDataSource{
     
     
 }
-
