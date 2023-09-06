@@ -1,2 +1,6 @@
 # DynamicCellSizeCollectionView
-Sample code about collectionView which has dynamic cell size
+
+Sample code about collectionView which has dynamic cell size. 
+
+![Thumbnail](thumbnail.png)
+
