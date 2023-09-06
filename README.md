@@ -2,5 +2,5 @@
 
 Sample code about collectionView which has dynamic cell size. 
 
-![Thumbnail](thumbnail.png)
+![Thumbnail](Frame491.png)
 
